@@ -1,0 +1,92 @@
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    text-align: center;
+    color: white;
+    background-color: #192534;
+  }
+  
+  .header {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    background: #293d56;
+    color: white;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 3px;
+    border: solid 1px #888888;
+    border-radius: 3px;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #99cc00;
+    color: white;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 3px;
+  }
+  
+  .left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #293d56;
+    color: white;
+    padding: 1rem;
+    margin: 2rem;
+    border: solid 1px #888888;
+    border-radius: 3px;
+  }
+  
+  .right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #293d56;
+    color: white;
+    padding: 1rem;
+    margin: 2rem;
+    border: solid 1px #888888;
+    border-radius: 3px;
+  }
+  
+  #pone {
+    background: #293d56;
+    border: solid 1px #888888;
+    border-radius: 3px;
+    padding: 1rem;
+    margin: 0;
+  }
+  
+  #ptwo {
+    background: #293d56;
+    border: solid 1px #888888;
+    border-radius: 3px;
+    padding: 1rem;
+    margin: 1;
+  }
+  
+  #pthree {
+    background: #293d56;
+    border: solid 1px #888888;
+    border-radius: 3px;
+    padding: 1rem;
+    margin: 0;
+  }
+  
+  @media all and (min-width: 600px) {
+    .left { flex: 1 0 0; }
+    .right { flex: 1 0 0; }
+  }
+  
+  @media all and (min-width: 600px) {
+    .main    { flex: 3 0px; }
+    .left    { order: 1; } 
+    .main    { order: 2; }
+    .right   { order: 3; }
+  }
+  
