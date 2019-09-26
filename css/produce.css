@@ -1,0 +1,18 @@
+#wellcome {
+    color: black;
+    background-color: #a8aa48;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 40px;
+    background-color: white;
+    padding: 10px;
+    border: solid black;
+}
+
+#p1, #p2, #p3, #p4, #p5, #p6 {
+    border: solid black;
+    background-color: #a8aa48;
+}
