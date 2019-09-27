@@ -1,12 +1,13 @@
 h1 {
-    text-align: center;
-    justify-content: center;
-    background: white;
         -webkit-animation: color-change 1s infinite;
         -moz-animation: color-change 1s infinite;
         -o-animation: color-change 1s infinite;
         -ms-animation: color-change 1s infinite;
         animation: color-change 1s infinite;
+        background-color: white;
+        margin-left: 22%;
+        margin-top: 20%;
+        padding: 20px;
     }
 
     @-webkit-keyframes color-change {
@@ -33,4 +34,52 @@ h1 {
         0% { color: #e92029 }
         50% { color: #c2f32c; }
         100% { color: black }
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0px;
+        overflow: hidden;
+        background-color: #1f1b29;
+        float: right;
+      }
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: #2b2539;
+      }
+    
+      .wrapper {
+        display: flex;  
+        flex-flow: row wrap;
+        text-align: center;
+        float: right;
+      }
+      #order {
+        color: black;
+        background-color: #e92630;
+        text-align: right;
+        width: 100%;
+        padding: 2rem;
+        margin: 1rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        font-size: 40px;
+        box-shadow: 5px 8px 5px grey;
+    }
+
+    body {
+      background-image: url("../images/guac.gif");
+      background-repeat: no-repeat;
+      background-size: cover;
     }

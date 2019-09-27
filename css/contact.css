@@ -1,41 +1,18 @@
 #wellcome {
     color: black;
-    background-color: #a8aa48;
+    background-color: #fcb569;
     text-align: right;
     width: 100%;
     padding: 2rem;
-    margin: 2rem;
+    margin: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bolder;
     font-size: 40px;
     box-shadow: 5px 8px 5px grey;
 }
-
-#container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-    background-image: url('https://vrworldnyc.com/wp-content/uploads/2017/06/contact-1-2.jpg');
-    background-repeat: repeat-y;
-    padding: 20px;
-    border-top: solid black;
-    text-align: center;
-}
-
-#produce {
-    border: solid black;
-    background-color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-header {
-    font-size: 55px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 1;
+    margin: 0px;
     overflow: hidden;
     background-color: #1f1b29;
     float: right;
@@ -64,3 +41,26 @@ ul {
     background-image: url('https://vrworldnyc.com/wp-content/uploads/2017/06/contact-1-2.jpg');
     background-repeat: repeat-y;
   }
+  #gif {
+    width: 10rem;
+    height: 10rem;
+    float: left;
+    margin: -30px;
+  }
+
+  body {
+    background-image: url('https://vrworldnyc.com/wp-content/uploads/2017/06/contact-1-2.jpg');
+    background-repeat: no-repeat;
+  }
+
+  #gif {
+    width: 10rem;
+    height: 10rem;
+    float: left;
+  }
+  #contactinfo {
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
