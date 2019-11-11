@@ -4,8 +4,8 @@ To create a mock website so that any customer can view avaliable avocado merchan
 #UPDATED November 11, 2019
 
 #### Files in Progrm
-*HTML
-*CSS
+* HTML
+* CSS
 
 #### Simple Explanation
 * There are 4 pages for the user to view
